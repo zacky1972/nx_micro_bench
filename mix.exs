@@ -22,7 +22,8 @@ defmodule NxMicroBench.MixProject do
   defp deps do
     [
       {:nx, "~> 0.1.0-dev", github: "elixir-nx/nx", branch: "main", sparse: "nx"},
-      {:benchee, "~> 1.0", only: :dev}
+      {:benchee, "~> 1.0", only: :dev},
+      {:ex_doc, "~> 0.24", only: :dev, runtime: false}
     ]
   end
 end

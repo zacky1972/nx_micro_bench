@@ -1,21 +1,17 @@
 # NxMicroBench
 
-**TODO: Add description**
+NxMicroBench is benchmarks that aim to identify how long each Nx function takes to execute.
 
-## Installation
+# Run benchmarks
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `nx_micro_bench` to your list of dependencies in `mix.exs`:
+Before running this benchmarks, you will need to run the following command to install libraries:
 
-```elixir
-def deps do
-  [
-    {:nx_micro_bench, "~> 0.1.0"}
-  ]
-end
+```
+$ mix deps.get
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/nx_micro_bench](https://hexdocs.pm/nx_micro_bench).
+Then, you can run each benchmark in the `bench` directory. For example:
 
+```
+$ mix run bench/nx_tensor_bench.exs 
+```

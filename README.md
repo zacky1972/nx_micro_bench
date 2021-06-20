@@ -1,6 +1,6 @@
 # NxMicroBench
 
-NxMicroBench is benchmarks that aim to identify how long each Nx function takes to execute.
+NxMicroBench is a benchmark suite that aims to identify how long each Nx function takes to execute.
 
 # Run benchmarks
 

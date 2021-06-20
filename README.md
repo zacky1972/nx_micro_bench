@@ -4,7 +4,7 @@ NxMicroBench is a benchmark suite that aims to identify how long each Nx functio
 
 # Run benchmarks
 
-Before running this benchmarks, you will need to run the following command to install libraries:
+Before running this benchmark suite, you will need to run the following command to install libraries:
 
 ```
 $ mix deps.get
